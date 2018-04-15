@@ -1,0 +1,13 @@
+web:
+ props:
+  uploadurl: "/upload"
+  hostaddress: "http://localhost:8080"
+
+server:
+  filepath:
+        base: "/wordis/base/"
+        tmp: "/wordis/tmp/"
+
+spring:
+    profiles:
+         active:
